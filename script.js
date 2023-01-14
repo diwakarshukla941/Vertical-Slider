@@ -20,7 +20,7 @@ const changeSlide = (direction) => {
         }
     }
         else if(direction == 'down'){
-            activeSlideIndex++
+            activeSlideIndex--
             if(activeSlideIndex < 0){
                 activeSlideIndex = slidesLength - 1
             }
